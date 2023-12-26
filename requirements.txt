@@ -3,9 +3,7 @@ docxcompose==1.4.0
 docxtpl==0.16.7
 
 Flask==3.0.0
-pywin32==306
 
-pypiwin32==223
 
 
 
