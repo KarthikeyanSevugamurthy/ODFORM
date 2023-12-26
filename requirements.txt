@@ -6,6 +6,6 @@ docxtpl==0.16.7
 Flask==3.0.0
 
 
-pypiwin32==223
+pypiwin32>=223
 
 
