@@ -4,13 +4,13 @@ import datetime as dt
 from io import BytesIO
 from docx import Document
 import os
-import pythoncom 
+
 
 
 
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'static' 
-pythoncom.CoInitialize() 
+
 def process_student_input(student_input):
     rows = []
     lines = student_input.strip().split('\n')
