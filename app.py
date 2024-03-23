@@ -15,7 +15,7 @@ def process_student_input(student_input):
     rows = []
     lines = student_input.strip().split('\n')
     for line in lines:
-        cols = line.split()
+        cols = line.split('-')
         if len(cols) >= 4:  # Ensure at least 4 columns are present
             student = {
                 "reg": cols[0],
